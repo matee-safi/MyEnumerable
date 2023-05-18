@@ -24,7 +24,8 @@
 
 # 📖 MyEnumerables <a name="about-project"></a>
 
-> MyEnumerables is a simple ruby project just for educational purposes.
+- MyEnumerables is a simple ruby project just for educational purposes.
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -74,13 +75,19 @@ Example commands:
 
 Install this project with:
 
+- bundle install
+
 ### Usage
 
 To run the project, execute the following command:
 
+- ruby main.rb
+
 ### Run tests
 
 To run tests, run the following command:
+
+ - rubocop
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,6 +108,14 @@ To run tests, run the following command:
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- Stay tuned for more features in the near future.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
