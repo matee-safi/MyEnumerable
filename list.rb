@@ -1,6 +1,6 @@
-class MyList
-  include MyEnumerable
-
+require_relative 'Enum'
+class List
+  include Enum
   def initialize(*elements)
     @list = elements
   end
