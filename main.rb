@@ -1,0 +1,22 @@
+require_relative 'List'
+# Create our list
+list = List.new(1, 2, 3, 4)
+
+# Test #all?
+puts(list.all? { |e| e < 5 })
+# Output: true
+puts(list.all? { |e| e > 5 })
+# Output: false
+
+# Test #any?
+puts(list.any? { |e| e == 2 })
+# Output: true
+puts(list.any? { |e| e == 5 })
+# Output: false
+
+# Test #filter
+print(list.filter(&:even?))
+# Output: [2, 4]
+puts # Newline
+print(list.filter(&:odd?))
+# Output: [1, 3]
